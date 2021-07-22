@@ -1,0 +1,63 @@
+/* Debug */
+
+.debug {
+    background-color: red;
+}
+/* Common */
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.btn_shape {
+    border-radius: 50px;
+    color: #fff;
+}
+
+.btn_bg_dgrey {
+    background-color: #363636;
+}
+
+.btn:hover {
+    color: #FFF; /* Overwritten BS rule, final behaviour TBC*/
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #000;/* Overwritten BS rule, final behaviour TBC*/
+}
+
+/* Typo */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+.header-top {
+    padding: 5px 0;
+}
+
+.header-top img {
+    width: 75px;
+}
+
+.chevron, .chevron-hover {
+    width: 10px;
+}
+
+.nav-item:hover .chevron {
+    display: none;
+}
+
+.nav-item:hover .chevron-hover {
+    display: inline-block!important;
+}
+
+.lens {
+    padding: 10px;
+}
+
+.lens img{
+    width: 20px;
+}
