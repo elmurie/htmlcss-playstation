@@ -43,6 +43,12 @@
     color: #000;/* Overwritten BS rule, final behaviour TBC*/
 }
 
+.jumbo_wrap {
+    background-size:cover;
+    background-position: center;
+    padding: 501px 0 0 2vw;
+}
+
 
 
 /* Typo */
@@ -99,13 +105,8 @@ header {
 .jumbo_bg_top{
     background-image: url(../img/jumbo-bg.png);
 }
-.jumbo_wrap {
-    background-size:cover;
-    background-position: center;
-    padding: 501px 0 0 2vw;
-}
 
-#returnal_logo {
+.game_logo {
     width: 70%;
     margin-bottom: 20px;
 }
@@ -141,6 +142,16 @@ header {
 }
 .tile:hover {
     border-bottom: 2px solid #0d6efd;
+    margin-bottom: -120px;
     opacity: 1;
 }
 
+/* New releases*/
+
+.jumbo_bg_middle{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#releases h6 {
+    margin-top: 10px;
+}
