@@ -79,15 +79,15 @@ header {
 
 #hero {
     margin-top: 110px;
-}
-
-#hero .jumbotron{
     height: 100vh;
     background-image: url(../img/jumbo-bg.png);
     background-size:cover;
     background-position: center;
+    padding: 300px 0 0px 15px;
+    
 }
 
+
 #returnal_logo {
-    width: 50%;
+    width: 70%;
 }
