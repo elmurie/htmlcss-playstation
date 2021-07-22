@@ -3,6 +3,19 @@
 .debug {
     background-color: red;
 }
+
+.square_blue {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+}
+.square_yellow {
+    width: 200px;
+    height: 150px;
+    background-color: yellow;
+}
+
+
 /* Common */
 
 .nav-link {
@@ -29,6 +42,8 @@
 .nav-link:focus, .nav-link:hover {
     color: #000;/* Overwritten BS rule, final behaviour TBC*/
 }
+
+
 
 /* Typo */
 
@@ -79,15 +94,30 @@ header {
 
 #hero {
     margin-top: 110px;
-    height: 100vh;
-    background-image: url(../img/jumbo-bg.png);
-    background-size:cover;
-    background-position: center;
-    padding: 300px 0 0px 15px;
-    
 }
 
+.jumbo_bg_top{
+    background-image: url(../img/jumbo-bg.png);
+}
+.jumbo_wrap {
+    background-size:cover;
+    background-position: center;
+    padding: 400px 0 50px 20px;
+}
 
 #returnal_logo {
     width: 70%;
 }
+
+/* Hero Cards*/
+
+.thumbnail {
+    padding: 20px;
+}
+
+.cards img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
