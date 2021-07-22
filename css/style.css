@@ -102,11 +102,12 @@ header {
 .jumbo_wrap {
     background-size:cover;
     background-position: center;
-    padding: 400px 0 50px 20px;
+    padding: 501px 0 0 2vw;
 }
 
 #returnal_logo {
     width: 70%;
+    margin-bottom: 20px;
 }
 
 /* Hero Cards*/
@@ -120,4 +121,26 @@ header {
     border-radius: 20px;
 }
 
+/* PS5*/
+
+#ps5 {
+    padding: 20px;
+}
+
+#ps5 h5 {
+    color: #0d6efd;
+}
+
+#ps5 img {
+    width: 100%;
+}
+
+.tile {
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+.tile:hover {
+    border-bottom: 2px solid #0d6efd;
+    opacity: 1;
+}
 
