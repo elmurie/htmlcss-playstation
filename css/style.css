@@ -89,6 +89,10 @@ h5 {
     font-weight: 600;
 }
 
+li {
+    list-style: none;
+}
+
 /* Header */
 
 header {
@@ -228,4 +232,9 @@ header {
 
 footer {
     background-color: #00439C;
+}
+
+#globe {
+    width: 25px;
+    height: 25px;
 }
