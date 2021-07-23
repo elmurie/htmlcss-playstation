@@ -58,6 +58,23 @@ body {
     color: #fff; 
 }
 
+h2 {
+    font-size: calc(2.3rem + .9vw);
+}
+
+h3 {
+    font-size: calc(2.0rem + .9vw);
+}
+
+h4 {
+    font-size: calc(1.1rem + .3vw);
+}
+
+h5 {
+    font-size: 1.05rem;;
+    font-weight: 600;
+}
+
 /* Header */
 
 header {
@@ -137,6 +154,10 @@ header {
     padding: 20px;
 }
 
+#ps5 h4, #ps4 h4 {
+    color: #838383;
+}
+
 #ps5 h5 {
     color: #0d6efd;
 }
@@ -146,6 +167,7 @@ header {
 }
 
 .tile {
+    text-align: center;
     opacity: 0.8;
 }
 .tile:hover {
@@ -156,7 +178,7 @@ header {
 .tile h6 {
     margin-top: 10px;
     padding-bottom: 20px;
-    height: 50px;
+    height: 60px;
 }
 
 /* New releases*/
@@ -167,4 +189,11 @@ header {
 
 #releases h6 {
     margin-top: 10px;
+}
+
+/* PS4 */
+
+#ps4 {
+    margin-top: 50px;
+    padding: 20px;
 }
