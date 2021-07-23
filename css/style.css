@@ -32,6 +32,10 @@
     padding: 250px 0 40px 0;
 }
 
+li {
+    list-style: none;
+}
+
 /* Common - Buttons */
 
 .btn_shape {
@@ -89,9 +93,6 @@ h5 {
     font-weight: 600;
 }
 
-li {
-    list-style: none;
-}
 
 /* Header */
 
@@ -232,9 +233,32 @@ header {
 
 footer {
     background-color: #00439C;
+    padding: 50px 20px;
+}
+
+footer .container-fluid {
+    padding: 0;
 }
 
 #globe {
     width: 25px;
     height: 25px;
+    margin: 45px 0;
+}
+
+#footer-top-right ul {
+    padding-left: 0;
+}
+#footer-top-right li {
+    padding: 5px 0;
+}
+
+#footer-top-right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer-bottom p {
+    font-size: 0.8rem;
+    line-height: 1.5;
 }
