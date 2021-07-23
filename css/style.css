@@ -22,6 +22,18 @@
     color: rgba(0, 0, 0, 0.9);
 }
 
+.nav-link:focus, .nav-link:hover {
+    color: #000;/* Overwritten BS rule, final behaviour TBC*/
+}
+
+.jumbo_wrap {
+    background-size:cover;
+    background-position: top center;
+    padding: 250px 0 40px 0;
+}
+
+/* Common - Buttons */
+
 .btn_shape {
     border-radius: 50px;
     color: #fff;
@@ -35,21 +47,14 @@
     background-color: #CD3D0F;
 }
 
+.btn_bg_inverted {
+    background-color: #D9DADC;
+    color: #0d6efd;
+    font-weight: 600;
+}
 .btn:hover {
     color: #FFF; /* Overwritten BS rule, final behaviour TBC*/
 }
-
-.nav-link:focus, .nav-link:hover {
-    color: #000;/* Overwritten BS rule, final behaviour TBC*/
-}
-
-.jumbo_wrap {
-    background-size:cover;
-    background-position: top center;
-    padding: 250px 0 40px 0;
-}
-
-
 
 /* Typo */
 
@@ -196,4 +201,14 @@ header {
 #ps4 {
     margin-top: 50px;
     padding: 20px;
+}
+
+/* PS Plus*/
+
+#plus {
+    background-color: #BEBCBB;
+}
+
+#plus p {
+    font-size: 0.9rem;
 }
