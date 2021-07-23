@@ -203,7 +203,7 @@ header {
 
 /* PS4 */
 
-#ps4, #sales {
+#ps4, #sales, #social {
     margin-top: 50px;
     padding: 20px;
 }
@@ -222,4 +222,10 @@ header {
 
 #now {
     background-color: #161C3B;
+}
+
+/* Footer */
+
+footer {
+    background-color: #00439C;
 }
