@@ -122,6 +122,15 @@ header {
     border-radius: 20px;
 }
 
+.card_thumb {
+	padding: 2px;
+	border-radius: 20px;
+}
+
+.card_thumb:active {
+	box-shadow: 0px 0px 0px 2px #0072ce;
+}
+
 /* PS5*/
 
 #ps5 {
@@ -138,12 +147,16 @@ header {
 
 .tile {
     opacity: 0.8;
-    margin-bottom: 5px;
 }
 .tile:hover {
-    border-bottom: 2px solid #0d6efd;
-    margin-bottom: -120px;
+    box-shadow: 0px 2px 0px 0px #0072ce;
     opacity: 1;
+}
+
+.tile h6 {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    height: 50px;
 }
 
 /* New releases*/
