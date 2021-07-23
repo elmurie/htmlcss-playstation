@@ -60,7 +60,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #fff; 
+    color: #000; 
 }
 
 h2 {
@@ -73,6 +73,7 @@ h3 {
 
 h4 {
     font-size: calc(1.1rem + .3vw);
+    color: #838383;
 }
 
 h5 {
@@ -159,10 +160,6 @@ header {
     padding: 20px;
 }
 
-#ps5 h4, #ps4 h4 {
-    color: #838383;
-}
-
 #ps5 h5 {
     color: #0d6efd;
 }
@@ -198,7 +195,7 @@ header {
 
 /* PS4 */
 
-#ps4 {
+#ps4, #sales {
     margin-top: 50px;
     padding: 20px;
 }
