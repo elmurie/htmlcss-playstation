@@ -142,32 +142,38 @@ header {
 }
 
 .header-top {
-    padding: 5px 0;
+    padding: 5px 0px;
 }
 
 .header-top img {
     height: 15px;
 }
 
-.chevron, .chevron-hover {
+.navbar-light .navbar-nav .nav-link {
+    color:#000;
+    font-size: 1.05rem;
+}
+
+.dropdown-toggle::after {
+    content: url('../img/chevron-down-solid.svg');
+    display: inline-block;
     width: 10px;
+    border: none;
+    vertical-align: middle;
 }
 
-.nav-item:hover .chevron {
-    display: none;
-}
-
-.nav-item:hover .chevron-hover {
-    display: inline-block!important;
+.navbar-nav li:hover .dropdown-toggle::after {
+    content: url('../img/chevron-down-solid-hover.svg');
+    display: inline-block;
+    width: 10px;
+    border: none;
+    vertical-align: middle;
 }
 
 .lens {
-    padding: 10px;
+    height: 25px;
 }
 
-.lens img{
-    width: 20px;
-}
 
 /* Hero */
 
