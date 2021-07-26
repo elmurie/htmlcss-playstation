@@ -283,6 +283,12 @@ header {
     background-color: #161C3B;
 }
 
+/* Social */
+
+#social .container {
+    max-width: 600px;
+}
+
 /* Footer */
 
 footer {
