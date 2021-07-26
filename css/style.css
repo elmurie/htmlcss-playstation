@@ -160,6 +160,7 @@ header {
     width: 10px;
     border: none;
     vertical-align: middle;
+    transition: ease 0.5s;
 }
 
 .navbar-nav li:hover .dropdown-toggle::after {
@@ -168,8 +169,26 @@ header {
     width: 10px;
     border: none;
     vertical-align: middle;
+    transform: rotate(-180deg);
 }
 
+header .dropdown-menu {
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+}
+
+.nav-item {
+    position: static;
+}
+
+.dropdown-menu.show li {
+    display: inline-block;
+}
 .lens {
     height: 25px;
 }
