@@ -189,6 +189,29 @@ header .dropdown-menu {
 .dropdown-menu.show li {
     display: inline-block;
 }
+
+#custom_divider {
+    display: block;
+}
+
+#custom_divider hr {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+}
+
+.dropdown-menu p {
+    margin: 0;
+}
+
+.sub_li{
+    list-style-type: disc;
+}
+.sub_link {
+    text-decoration: none;
+    color: #000;
+}
 .lens {
     height: 25px;
 }
