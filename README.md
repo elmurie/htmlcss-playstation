@@ -4,7 +4,7 @@ Boolean course exercise
 
 I have recreated Playstation Store's responsive homepage using **Bootstrap**
 
-<a href="https://elmurie.github.io/htmlcss-playstation">Check it out</a>!
+<a href="https://elmurie.github.io/htmlcss-playstation">Check it out</a> !
 
 <details>
   <summary>Screenshots</summary>
