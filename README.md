@@ -2,7 +2,7 @@
 
 Boolean course exercise 
 
-I have recreated Playstation Store's responsive homepage using Bootstrap
+I have recreated Playstation Store's responsive homepage using **Bootstrap**
 
 Deployed to https://elmurie.github.io/htmlcss-playstation/
 
