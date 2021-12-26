@@ -9,6 +9,6 @@ Deployed to https://elmurie.github.io/htmlcss-playstation/
 <details>
   <summary>Screenshots</summary><details>
   <img src="https://i.imgur.com/H4tAUIC.png" name="1">
-  <img src="https://i.imgur.com/fFbQAlI.png" name="screen_2">
-  <img src="https://i.imgur.com/yKw5nUj.png" name="screen_3">
+  <img src="https://i.imgur.com/fFbQAlI.png" name="2">
+  <img src="https://i.imgur.com/yKw5nUj.png" name="3">
 </details>
