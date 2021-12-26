@@ -2,6 +2,13 @@
 
 Boolean course exercise 
 
-I have recreated Playstation's responsive homepage using Bootstrap
+I have recreated Playstation Store's responsive homepage using Bootstrap
 
 Deployed to https://elmurie.github.io/htmlcss-playstation/
+
+<details>
+  <summary>Screenshots</summary><details>
+  <img src="https://i.imgur.com/H4tAUIC.png" name="1">
+  <img src="https://i.imgur.com/fFbQAlI.png" name="screen_2">
+  <img src="https://i.imgur.com/yKw5nUj.png" name="screen_3">
+</details>
